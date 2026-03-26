@@ -40,5 +40,5 @@ flutter run
 
 ## 📧 Contact
 
-buxhiisd@gmail.com
-https://linkedin.com/in/bashir-ahmed110
+*buxhiisd@gmail.com
+*https://linkedin.com/in/bashir-ahmed110
