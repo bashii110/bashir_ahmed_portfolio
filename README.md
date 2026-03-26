@@ -37,12 +37,8 @@ flutter run
 
 ---
 
-## 📸 Screenshots
-
-(Add your screenshots here later)
-
----
 
 ## 📧 Contact
 
-(Add your email or LinkedIn here)
+buxhiisd@gmail.com
+https://linkedin.com/in/bashir-ahmed110
