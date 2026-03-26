@@ -32,8 +32,8 @@
 
 | Mobile | Tablet | Desktop |
 |--------|--------|---------|
-| ![mobile](assets/images/front_image.png) | ![tablet](<img width="745" height="631" alt="2" src="https://github.com/user-attachments/assets/6a83ef5a-e576-4add-aff8-bde053c207ec" />
-) | ![desktop](<img width="1366" height="646" alt="3" src="https://github.com/user-attachments/assets/67441ebc-b16a-4398-97fb-bd6709842391" />
+| ![mobile](assets/images/front_image.png) | ![tablet](<img width="200" height="150" alt="2" src="https://github.com/user-attachments/assets/6a83ef5a-e576-4add-aff8-bde053c207ec" />
+) | ![desktop](<img width="400" height="200" alt="3" src="https://github.com/user-attachments/assets/67441ebc-b16a-4398-97fb-bd6709842391" />
 ) |
 
 > Replace the above with actual screenshots of your app.
