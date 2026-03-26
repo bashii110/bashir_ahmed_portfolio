@@ -15,61 +15,58 @@ class NavigationButtonList extends StatelessWidget {
         duration: const Duration(milliseconds: 200),
         builder: (context, value, child) {
           return Transform.scale(
-            scale: value,
-            // child: SizedBox(
-            //   width: MediaQuery.of(context).size.width, // Constrain width
-            //   child: SingleChildScrollView(
-            //     scrollDirection: Axis.horizontal,
-            //     child: Center(
-            child: Row(
-              // mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                NavigationTextButton(
-                    onTap: () {
-                      controller.animateToPage(0,
-                          duration: const Duration(milliseconds: 500),
-                          curve: Curves.easeIn);
-                    },
-                    text: 'Home'),
-                // if (!Responsive.isLargeMobile(context))
-                //   NavigationTextButton(onTap: () {}, text: 'About us'),
-                NavigationTextButton(
-                    onTap: () {
-                      controller.animateToPage(1,
-                          duration: const Duration(milliseconds: 500),
-                          curve: Curves.easeIn);
-                    },
-                    text: 'Projects'),
+              scale: value,
+              child: SizedBox(
+                  width: MediaQuery.of(context).size.width, // Constrain width
+                  child: SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Center(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          NavigationTextButton(
+                              onTap: () {
+                                controller.animateToPage(0,
+                                    duration: const Duration(milliseconds: 500),
+                                    curve: Curves.easeIn);
+                              },
+                              text: 'Home'),
+                          if (!Responsive.isLargeMobile(context))
+                            NavigationTextButton(onTap: () {}, text: 'About us'),
+                          NavigationTextButton(
+                              onTap: () {
+                                controller.animateToPage(1,
+                                    duration: const Duration(milliseconds: 500),
+                                    curve: Curves.easeIn);
+                              },
+                              text: 'Projects'),
 
-                // NavigationTextButton(
-                //     onTap: () {
-                //       controller.animateToPage(2,
-                //           duration: const Duration(milliseconds: 500),
-                //           curve: Curves.easeIn);
-                //     },
-                //     text: 'Experiences'),
-
-                NavigationTextButton(
-                    onTap: () {
-                      controller.animateToPage(2,
-                          duration: const Duration(milliseconds: 500),
-                          curve: Curves.easeIn);
-                    },
-                    text: 'Educations'),
-                NavigationTextButton(
-                    onTap: () {
-                      controller.animateToPage(3,
-                          duration: const Duration(milliseconds: 500),
-                          curve: Curves.easeIn);
-                    },
-                    text: 'Certifications'),
-                // NavigationTextButton(onTap: () {}, text: 'Achievements'),
-              ],
-            ),
-            //     ),
-            //   ),
-            // ),
-          );
+                          NavigationTextButton(
+                              onTap: () {
+                                controller.animateToPage(2,
+                                    duration: const Duration(milliseconds: 500),
+                                    curve: Curves.easeIn);
+                              },
+                              text: 'Experiences'),
+                          NavigationTextButton(
+                              onTap: () {
+                                controller.animateToPage(3,
+                                    duration: const Duration(milliseconds: 500),
+                                    curve: Curves.easeIn);
+                              },
+                              text: 'Educations'),
+                          NavigationTextButton(
+                              onTap: () {
+                                controller.animateToPage(4,
+                                    duration: const Duration(milliseconds: 500),
+                                    curve: Curves.easeIn);
+                              },
+                              text: 'Certifications'),
+                          // NavigationTextButton(onTap: () {}, text: 'Achievements'),
+                        ],
+                      ),
+                    ),
+                  )));
         },
       ),
     );

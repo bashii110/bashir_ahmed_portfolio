@@ -29,7 +29,7 @@ class DrawerImage extends StatelessWidget {
           child: Transform.rotate(
               angle: 0.1,
               child: Image.asset(
-                'assets/images/bashirprofile.jpg',
+                'assets/images/my_profile.jpg',
                 fit: BoxFit.cover,
               ))),
     );

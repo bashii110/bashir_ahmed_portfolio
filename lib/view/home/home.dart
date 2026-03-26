@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:my_flutter_portfolio/view/experience/experience_page.dart';
 
 import '../certifications/certifications.dart';
 import '../education/education.dart';
@@ -15,6 +16,7 @@ class HomePage extends StatelessWidget {
     return MainView(pages: [
       const Introduction(),
       ProjectsView(),
+      ExperiencePage(),
       EducationPage(),
       Certifications(),
     ]);

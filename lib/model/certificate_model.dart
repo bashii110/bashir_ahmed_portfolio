@@ -16,11 +16,25 @@ class CertificateModel {
 
 List<CertificateModel> certificateList = [
   CertificateModel(
-    name: 'Flutter and Dart',
-    organization: 'IBM',
-    date: 'JUL 2025',
-    skills: 'Developing · IOS, Android and Mobile Apps',
-    credential: 'https://drive.google.com/file/d/1fzPvjRsEqQ8UW6CVNilWa_7dXOPY-CEi/view?usp=drive_link',
+    name: 'Flutter and Dart- Complete App Development Course',
+    organization: 'PACKT',
+    date: 'JUL 30, 2025',
+    skills: 'Flutter · Dart · Mobile App Development · UI/UX',
+    credential: 'https://drive.google.com/drive/u/0/folders/1OdVkp7sDm8PuwfyG9u2EECMKL9ASP189',
+  ),
+  CertificateModel(
+    name: 'Data Science Professional',
+    organization: 'Oracle',
+    date: 'Aug 25, 2025',
+    skills: 'Cloud Computing · Data Science · Machine Learning · Oracle Cloud',
+    credential: 'https://drive.google.com/drive/u/0/folders/1-ZevOqF7KWbUgXpcm4TaNQ4EzqQvy00w',
+  ),
+  CertificateModel(
+    name: 'Algorithmic ToolBx',
+    organization: 'UC SanDiego',
+    date: 'Jul 13, 2025',
+    skills: 'Algorithms · Problem Solving · Computational Thinking · Programming',
+    credential: 'https://drive.google.com/drive/u/0/folders/1CGGms341cFHDibr1qIjJeO0ep7qRHWBe',
   ),
   CertificateModel(
     name: 'Prompt Engineering Basics',
