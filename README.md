@@ -30,14 +30,13 @@
 
 ## 📸 Screenshots
 
-| Mobile | Tablet | Desktop |
-|--------|--------|---------|
-|!([1](https://github.com/user-attachments/assets/3270eeff-1866-4ca9-8c7e-de146e24f803)
-|(<img width="150" height="150" alt="2" src="https://github.com/user-attachments/assets/6a83ef5a-e576-4add-aff8-bde053c207ec" />
-|(<img width="200" height="150" alt="3" src="https://github.com/user-attachments/assets/67441ebc-b16a-4398-97fb-bd6709842391" />
- |
+<div align="center">
 
-> Replace the above with actual screenshots of your app.
+| Mobile | Tablet | Desktop |
+|:------:|:------:|:-------:|
+| <img src="https://github.com/user-attachments/assets/3270eeff-1866-4ca9-8c7e-de146e24f803" width="200" /> | <img src="https://github.com/user-attachments/assets/6a83ef5a-e576-4add-aff8-bde053c207ec" width="300" /> | <img src="https://github.com/user-attachments/assets/67441ebc-b16a-4398-97fb-bd6709842391" width="450" /> |
+
+</div>
 
 ---
 
@@ -162,11 +161,11 @@ flutter build apk --release
 ## 🎨 Design System
 
 ```dart
-const bgColor       = Color(0xFF000515);  // Deep navy background
-const darkColor     = Color(0xFF191923);  // Card background
-const secondaryColor= Color(0xFF242430);  // Secondary surfaces
-const bodyTextColor = Color(0xFF8B8B8D);  // Body text
-const defaultPadding= 20.0;              // Base spacing unit
+const bgColor        = Color(0xFF000515);  // Deep navy background
+const darkColor      = Color(0xFF191923);  // Card background
+const secondaryColor = Color(0xFF242430);  // Secondary surfaces
+const bodyTextColor  = Color(0xFF8B8B8D);  // Body text
+const defaultPadding = 20.0;              // Base spacing unit
 
 // Accent gradient: Colors.pink → Colors.blue.shade900
 ```
