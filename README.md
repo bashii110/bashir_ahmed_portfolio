@@ -9,7 +9,7 @@
 
 **A fully responsive, cross-platform personal portfolio built with Flutter — showcasing projects, skills, education, certifications, and experience with a sleek dark UI.**
 
-[🌐 Live Demo](https://bashii110.github.io) &nbsp;·&nbsp; [📄 Download CV](https://drive.google.com/file/d/1aBiu7DqflJcGCD6lhV4WvgMPsa2sCA5F/view?usp=drive_link) &nbsp;·&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/bashir-ahmed110) &nbsp;·&nbsp; [🐙 GitHub](https://github.com/bashii110)
+[🌐 Live Demo](https://bashii110.github.io/bashir_ahmed_portfolio/) &nbsp;·&nbsp; [📄 Download CV](https://drive.google.com/file/d/1aBiu7DqflJcGCD6lhV4WvgMPsa2sCA5F/view?usp=drive_link) &nbsp;·&nbsp; [💼 LinkedIn](https://www.linkedin.com/in/bashir-ahmed110) &nbsp;·&nbsp; [🐙 GitHub](https://github.com/bashii110)
 
 </div>
 
